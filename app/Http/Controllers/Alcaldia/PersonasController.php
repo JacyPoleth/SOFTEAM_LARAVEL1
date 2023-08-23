@@ -19,7 +19,7 @@ class PersonasController extends Controller
     }
     
     public function nueva_persona(Request $request){
-        //Codigo para las imagenes
+        //Codigo para las imagenes y pruebaph
         $request->validate([
             'IMG_PERSONA' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
